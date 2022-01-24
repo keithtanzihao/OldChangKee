@@ -1,0 +1,21 @@
+.navbar-brand > img {
+    position: relative;
+    margin: auto;
+    width: 150px;
+    padding: 1rem;
+}
+
+#btstp-override .navbar > .container-fluid button {
+    border: none;
+}
+
+#btstp-override #navbarSupportedContent a {
+    padding: 0;
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-size: 1rem;
+}
+
+#btstp-override .nav-item:hover {
+    /* text-decoration: underline; */
+    border-bottom: 3px solid black;
+}

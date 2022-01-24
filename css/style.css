@@ -1,0 +1,37 @@
+@import url("slider.css");
+@import url("navbar.css");
+@import url("main.css");
+@import url("section.css");
+@import url("cta.css");
+@import url("modal.css");
+
+#btstp-override #info-ctn .info-sec {
+  width: 200px;
+}
+
+#btstp-override #info-ctn .info-sec .info-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#btstp-override .info-img {
+  width: 50%;
+}
+
+#btstp-override #info-ctn {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  #btstp-override #info-ctn .info-sec {
+    width: 250px;
+    padding: 0 2rem;
+  }
+
+  #btstp-override .info-img {
+    width: 80%;
+  }
+}
