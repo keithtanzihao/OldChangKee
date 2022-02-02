@@ -1,37 +1,42 @@
-@import url("slider.css");
+@import url("reset.css");
 @import url("navbar.css");
-@import url("main.css");
-@import url("section.css");
-@import url("cta.css");
 @import url("modal.css");
+@import url("fonts.css");
+@import url("carousel.css");
 
-#btstp-override #info-ctn .info-sec {
-  width: 200px;
+body#ock {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  background: white;
 }
 
-#btstp-override #info-ctn .info-sec .info-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+#ock {
+  position: relative;
 }
 
-#btstp-override .info-img {
-  width: 50%;
+#ock.hidden {
+  display: none;
 }
 
-#btstp-override #info-ctn {
-  font-family: "Mochiy Pop P One", sans-serif;
-  font-size: 1rem;
+#ock.active {
+  overflow: hidden;
 }
 
-@media screen and (min-width: 768px) {
-  #btstp-override #info-ctn .info-sec {
-    width: 250px;
-    padding: 0 2rem;
-  }
 
-  #btstp-override .info-img {
-    width: 80%;
-  }
-}
+
+
+
+
+
+
+
+/* 
+z-index current:
+
+body#ock              : 1
+#nav-btn              : 10
+#nav-btn input        : 11
+#modal                : 3
+
+*/
